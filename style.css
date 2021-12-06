@@ -1,163 +1,166 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-  background-color: hsl(226, 43%, 10%);
-  font-family: "Rubik";
+	background-color: hsl(226, 43%, 10%);
+	font-family: "Rubik";
 }
 .header-card {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 30px 0px 30px;
-  background-color: hsl(235, 46%, 20%);
-  border-radius: 10px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 30px 0px 30px;
+	background-color: hsl(235, 46%, 20%);
+	border-radius: 10px 10px;
 }
 
 .profile {
-  background-color: hsl(246, 80%, 60%);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 300;
-  border-radius: 10px 10px 10px 10px;
+	background-color: hsl(246, 80%, 60%);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 300;
+	border-radius: 10px 10px 10px 10px;
 }
 .profile-image {
-  width: 30%;
+	width: 30%;
 }
 #profile-image {
-  width: 70%;
-  display: flex;
-  margin: 0 10%;
+	width: 70%;
+	display: flex;
+	margin: 0 10%;
 }
 .profile-details {
-  width: 70%;
-  color: white;
+	width: 70%;
+	color: white;
 }
 
 .timeline {
-  background-color: hsl(235, 46%, 20%);
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 15px 0px 15px;
-  font-size: 18px;
-  font-weight: 300;
-  border-radius: 10px 10px;
-  color: hsl(235, 45%, 61%);
+	background-color: hsl(235, 46%, 20%);
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 15px 0px 15px;
+	font-size: 18px;
+	font-weight: 300;
+	border-radius: 10px 10px;
+	color: hsl(235, 45%, 61%);
 }
 .timeline p:nth-child(2) {
-  color: white;
+	color: white;
 }
 .card-work {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 30px 0px 30px;
-  background-color: hsl(15, 100%, 70%);
-  border-radius: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 30px 0px 30px;
+	background-color: hsl(15, 100%, 70%);
+	border-radius: 10px 10px 10px 10px;
 }
 .branding {
-  height: 50%;
+	height: 50%;
 }
 .branding img {
-  float: right;
-  margin-right: 10px;
+	float: right;
+	margin-right: 10px;
 }
 .details {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 0px 10px 0px 10px;
-  background-color: hsl(235, 46%, 20%);
-  border-radius: 10px 10px 10px 10px;
-  margin-top: -3vh;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0px 10px 0px 10px;
+	background-color: hsl(235, 46%, 20%);
+	border-radius: 10px 10px 10px 10px;
+	margin-top: -3vh;
 }
 .child {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: white;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: white;
+	align-items: center;
 }
 
 .attribution {
-  bottom: 0;
-  margin-top: 25px;
+	bottom: 0;
+	margin-top: 25px;
 }
 .card-play {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 30px 0px 30px;
-  background-color: hsl(195, 74%, 62%);
-  border-radius: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 30px 0px 30px;
+	background-color: hsl(195, 74%, 62%);
+	border-radius: 10px 10px 10px 10px;
 }
 .card-study {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 30px 0px 30px;
-  background-color: hsl(348, 100%, 68%);
-  border-radius: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 30px 0px 30px;
+	background-color: hsl(348, 100%, 68%);
+	border-radius: 10px 10px 10px 10px;
 }
 .card-exercise {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 30px 0px 30px;
-  background-color: hsl(145, 58%, 55%);
-  border-radius: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 30px 0px 30px;
+	background-color: hsl(145, 58%, 55%);
+	border-radius: 10px 10px 10px 10px;
 }
 .card-social {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 30px 0px 30px;
-  background-color: hsl(264, 64%, 52%);
-  border-radius: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 30px 0px 30px;
+	background-color: hsl(264, 64%, 52%);
+	border-radius: 10px 10px 10px 10px;
 }
 .card-self {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 30px 0px 30px;
-  background-color: hsl(43, 84%, 65%);
-  border-radius: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 30px 0px 30px;
+	background-color: hsl(43, 84%, 65%);
+	border-radius: 10px 10px 10px 10px;
 }
 #hours {
-  font-size: 14px;
+	font-size: 14px;
 }
+.child.name,
+.time {
+	font-weight: 300;
+	font-size: 2rem;
+}
+@media screen and (min-width: 600px) {
+	.container {
+		display: flex;
+		width: 85%;
+		margin: 0 auto;
+	}
 
-@media screen and (min-width: 600px){
-  .container{
-    display: flex;
-    width: 85%;
-    margin: 0 auto;
-  }
-  
-  .header-card{
-    width: 25%;
-  }
-  .profile{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px 0px 40px 20px;
-    height: 75%;
-  }
- 
-  .timeline{
-    display: flex;
-    flex-direction: column;
-  }
- 
-  .cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .card-work, 
-  .card-play, 
-  .card-study, 
-  .card-exercise, 
-  .card-self, 
-  .card-social{
-   width: 25%;
-   height: 25vh; 
-  }
- 
+	.header-card {
+		width: 25%;
+	}
+	.profile {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 30px 0px 40px 20px;
+		height: 75%;
+	}
+
+	.timeline {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cards {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.card-work,
+	.card-play,
+	.card-study,
+	.card-exercise,
+	.card-self,
+	.card-social {
+		width: 25%;
+		height: 25vh;
+	}
 }
