@@ -8,7 +8,7 @@ body {
 .header-card {
   display: flex;
   flex-direction: column;
-  margin: 50px 30px 0px 30px;
+  margin: 20px 30px 0px 30px;
   background-color: hsl(235, 46%, 20%);
   border-radius: 10px 10px;
 }
@@ -48,7 +48,7 @@ body {
 .timeline p:nth-child(2) {
   color: white;
 }
-.card {
+.card-work {
   display: flex;
   flex-direction: column;
   margin: 20px 30px 0px 30px;
@@ -120,4 +120,43 @@ body {
 }
 #hours {
   font-size: 14px;
+}
+
+@media screen and (min-width: 600px){
+  .container{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  .header-card{
+    width: 25%;
+  }
+  .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0px 40px 20px;
+  }
+ 
+  .timeline{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card-work, 
+  .card-play, 
+  .card-study, 
+  .card-exercise, 
+  .card-self, 
+  .card-social{
+   width: 25%;
+   height: 25vh; 
+  }
+ 
 }
