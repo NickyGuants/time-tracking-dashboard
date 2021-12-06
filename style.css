@@ -11,6 +11,7 @@ body {
 	margin: 20px 30px 0px 30px;
 	background-color: hsl(235, 46%, 20%);
 	border-radius: 10px 10px;
+	/* width: 50vw; */
 }
 
 .profile {
@@ -56,7 +57,8 @@ body {
 	border-radius: 10px 10px 10px 10px;
 }
 .branding {
-	height: 50%;
+	/* height: 50%; */
+	height: 20%;
 }
 .branding img {
 	float: right;
@@ -81,7 +83,12 @@ body {
 
 .attribution {
 	bottom: 0;
+	right: 0;
+	left: 0;
+	/* position: sticky; */
 	margin-top: 25px;
+	color: white;
+	font-size: 15px;
 }
 .card-play {
 	display: flex;
@@ -127,14 +134,21 @@ body {
 	font-size: 2rem;
 }
 @media screen and (min-width: 600px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100vh;
+	}
 	.container {
 		display: flex;
 		width: 85%;
 		margin: 0 auto;
+		/* background-color: blanchedalmond; */
 	}
 
 	.header-card {
-		width: 25%;
+		width: 30vw;
 	}
 	.profile {
 		display: flex;
@@ -161,6 +175,32 @@ body {
 	.card-self,
 	.card-social {
 		width: 25%;
-		height: 25vh;
+		height: 35vh;
+
+		padding: 0;
+	}
+	.branding {
+		height: 25%;
+
+		margin: 0;
+	}
+	.details {
+		height: 75%;
+		margin: 0;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.child {
+	}
+	.time,
+	#hours {
+		padding: 0;
+		margin: 0;
+	}
+	.bottom {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		height: 30%;
 	}
 }
